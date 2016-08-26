@@ -3,11 +3,11 @@
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { addProviders, async, inject } from '@angular/core/testing';
-import { TestListComponent } from './test-list.component';
+import { LeftNavComponent } from './left-nav.component';
 
-describe('Component: TestList', () => {
+describe('Component: LeftNav', () => {
   it('should create an instance', () => {
-    let component = new TestListComponent();
+    let component = new LeftNavComponent();
     expect(component).toBeTruthy();
   });
 });

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { TestListComponent } from './test-list/test-list.component';
+import { LeftNavComponent } from './left-nav/left-nav.component';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
-  directives: [TestListComponent]
+  directives: [LeftNavComponent]
 })
 
 export class AppComponent {
