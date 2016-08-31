@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   moduleId: module.id,
-  selector: 'app-spectpage',
+  selector: 'spectpage',
   templateUrl: 'spectpage.component.html',
   styleUrls: ['spectpage.component.css']
 })
-export class SpectpageComponent implements OnInit {
+export class SpectPageComponent implements OnInit {
 
   constructor() { }
 
