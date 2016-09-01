@@ -1,10 +1,10 @@
-import { Testapp01Page } from './app.po';
+import { MixpitPage } from './app.po';
 
-describe('testapp01 App', function() {
-  let page: Testapp01Page;
+describe('mixpit App', function() {
+  let page: MixpitPage;
 
   beforeEach(() => {
-    page = new Testapp01Page();
+    page = new MixpitPage();
   });
 
   it('should display message saying app works', () => {

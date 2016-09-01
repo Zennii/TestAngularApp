@@ -1,4 +1,6 @@
-export class Testapp01Page {
+import { browser, element, by } from 'protractor/globals';
+
+export class MixpitPage {
   navigateTo() {
     return browser.get('/');
   }
