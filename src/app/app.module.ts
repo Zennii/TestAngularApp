@@ -7,13 +7,17 @@ import { routing, appRoutingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { LeftNavComponent } from './left-nav/left-nav.component';
-import { spectrumPageComponent } from './+spectrum-page/spectrum-page.component';
+import { SpectrumPageComponent } from './+spectrum-page/spectrum-page.component';
+import { HomePageComponent } from './+home-page/home-page.component';
+import { MixPageComponent } from './+mix-page/mix-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftNavComponent,
-    spectrumPageComponent
+    SpectrumPageComponent,
+    HomePageComponent,
+    MixPageComponent
   ],
   imports: [
     BrowserModule,

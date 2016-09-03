@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './spectrum-page.component.html',
   styleUrls: ['./spectrum-page.component.css']
 })
-export class spectrumPageComponent implements OnInit {
+export class SpectrumPageComponent implements OnInit {
 
   constructor() { }
 
